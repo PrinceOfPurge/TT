@@ -29,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
         CheckHealthCount();
     }
 
-    void CheckHealthCount()
+    public void CheckHealthCount()
     {
         if (healthCount<1)
         {

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1726216551092480699}
   m_Layer: 0
   m_Name: archer_tower 2 1
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +99,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 250
+  towerID: 0
+  ownerPlayerID: 0
+  currentHealth: {fileID: 0}
 --- !u!114 &1726216551092480699
 MonoBehaviour:
   m_ObjectHideFlags: 0

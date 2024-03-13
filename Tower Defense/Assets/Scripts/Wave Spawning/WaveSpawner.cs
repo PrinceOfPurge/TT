@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Enemy_Related;
 using Managers;
+using Tower_Related;
 using UnityEngine;
 
 namespace Wave_Spawning {
@@ -14,6 +15,7 @@ namespace Wave_Spawning {
         [SerializeField] private int numOfWaves;
         [SerializeField] private int startingWave; //for debug purposes
         [SerializeField] private GameObject spawnEffectPrefab;
+        [SerializeField] private float attackInterval = 1f; // Adjust as needed
 
         //EVENTS
         public delegate void AllWavesCompleteDelegate();
@@ -95,7 +97,51 @@ namespace Wave_Spawning {
             Vector2 position = transform.position;
             Instantiate(spawnEffectPrefab, position, Quaternion.identity); //has DestroyOnExit Script when animation ends
             yield return new WaitForSeconds(0.3f);
-            Instantiate(currSubWave.GetEnemyPrefab(), position, Quaternion.identity);
+            GameObject enemy = Instantiate(currSubWave.GetEnemyPrefab(), position, Quaternion.identity);
+            StartCoroutine(AttackTowerRepeatedly(enemy));
+        }
+
+        private IEnumerator AttackTowerRepeatedly(GameObject enemy) {
+            PlayerHealth playerHealth = FindObjectOfType<PlayerHealth>();
+            if (playerHealth == null) {
+                Debug.LogError("PlayerHealth script not found!");
+                yield break;
+            }
+
+            // Wait until the player loses all their health
+            while (playerHealth.healthCount > 0) {
+                yield return null;
+            }
+
+            // Once player is defeated, start attacking towers
+            while (true) {
+                yield return new WaitForSeconds(attackInterval);
+        
+                // Check if the enemy or closestTower is null before proceeding
+                if (enemy == null) continue;
+
+                Tower closestTower = FindClosestTower(enemy.transform.position);
+                if (closestTower != null) {
+                    closestTower.TakeDamage(enemy.GetComponent<Enemy>().damage); // Adjust as per your Enemy script
+                }
+            }
+        }
+
+
+
+
+        private Tower FindClosestTower(Vector3 position) {
+            GameObject[] towers = GameObject.FindGameObjectsWithTag("Tower");
+            Tower closestTower = null;
+            float closestDistance = Mathf.Infinity;
+            foreach (GameObject tower in towers) {
+                float distance = Vector3.Distance(position, tower.transform.position);
+                if (distance < closestDistance) {
+                    closestTower = tower.GetComponent<Tower>();
+                    closestDistance = distance;
+                }
+            }
+            return closestTower;
         }
     }
 }

@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 5327370942294097907}
   - component: {fileID: 5411625289592006872}
   - component: {fileID: -6026320386934996187}
-  - component: {fileID: -2821903587518347629}
   m_Layer: 9
   m_Name: Lizard
   m_TagString: Untagged
@@ -227,19 +226,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &-2821903587518347629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517156178894154417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f41ecc720e51d7744928f53de1e24d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
 --- !u!1001 &8515396992222228416
 PrefabInstance:
   m_ObjectHideFlags: 0

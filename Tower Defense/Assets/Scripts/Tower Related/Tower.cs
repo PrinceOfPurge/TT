@@ -64,16 +64,8 @@ namespace Tower_Related {
             TowerIDManager.Instance.UnregisterTower(towerID);
         }
 
-        private void switchAttack()
+        public void TakeDamage(object damage)
         {
-            PlayerHealth _playerHealth = FindObjectOfType<PlayerHealth>();
-
-            if (_playerHealth.healthCount <= 0)
-            {
-                switchAttack();
-                
-                Debug.Log("Player has switched to attack");
-            }
         }
     }
     

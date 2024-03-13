@@ -16,6 +16,7 @@ namespace Enemy_Related {
         private EnemyManager _enemyManager;
         private HealthBar _healthBar;
         private SpriteRenderer _spriteRenderer;
+        public object damage;
 
         private void Awake() {
             _spriteRenderer = GetComponent<SpriteRenderer>();
