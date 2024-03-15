@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    public PlayerHealth playerHealth;
+    private PlayerHealth playerHealth;
 
     void Start()
     {
@@ -11,9 +11,14 @@ public class EnemyAttack : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        
+        PlayerHealth playerHealth = GetComponent<PlayerHealth>();
+
         if (collision.gameObject.CompareTag("Player"))
         {
             playerHealth.LoseHealth();
+
         }
+        
     }
 }
