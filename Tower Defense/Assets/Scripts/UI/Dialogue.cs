@@ -24,7 +24,6 @@ public class Dialogue : MonoBehaviour
     {
         textComponent.text = String.Empty;
         StartDialogue();
-        _waveIndex.GetComponent<WaveFactory>();
     }
 
     // Update is called once per frame
@@ -41,14 +40,7 @@ public class Dialogue : MonoBehaviour
                 StopAllCoroutines();
                 textComponent.text = lines[index];
             }
-            
-            Wave wave = _waveIndex.GetWave(waveIndex: 5);
-
-            if (wave != null)
-            {
-                gameObject.SetActive(true);
-                Debug.Log("Dialog Pop Up");
-            }
+          
         }
     }
 
@@ -74,9 +66,9 @@ public class Dialogue : MonoBehaviour
     {
         foreach (char c in lines[index].ToCharArray())
         {
-            PlayDialogueSFX();
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
+            PlayDialogueSFX();
         }
     }
 

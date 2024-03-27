@@ -544,12 +544,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1775984957}
   lines:
-  - Hello
-  - Welcome to our game bitch
-  - have fun
-  textSpeed: 0.05
+  - Hello, There
+  - This is Pillage and Protect
+  - The village is being attacked!
+  - Use the towers to defend
+  - Jusr move and click with the mouse
+  - You got this
+  textSpeed: 0.075
   dialogueBox: {fileID: 1730783704}
-  dialogueSoundEffect: {fileID: 8300000, guid: 397b4522e7cf5f04588b90fe54e43ffa, type: 3}
+  dialogueSoundEffect: {fileID: 8300000, guid: bea8f3fdfbc9a514e93b6d0e618dee4f, type: 3}
   audioSource: {fileID: 338055138}
   _desiredWaveIndex: 1
 --- !u!82 &338055138
@@ -564,13 +567,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.84
-  m_Pitch: 1
+  m_Volume: 0.09
+  m_Pitch: 1.2
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 183
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -608,7 +611,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.09
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -10612,9 +10615,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 94e96d27f0f708d4186c59f37a5d9675, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bbe540b256a210a419d30eb45db9a494, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.41
+  m_Volume: 0.762
   m_Pitch: 1
   Loop: 1
   Mute: 0

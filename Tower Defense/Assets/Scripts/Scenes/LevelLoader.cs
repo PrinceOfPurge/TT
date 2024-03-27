@@ -18,5 +18,7 @@ namespace Scenes {
       public void LoadOptionsScene() => SceneManager.LoadScene("Options");
 
       public void LoadMainMenuScene() => SceneManager.LoadScene("Menu");
+      
+      
    }
 }
