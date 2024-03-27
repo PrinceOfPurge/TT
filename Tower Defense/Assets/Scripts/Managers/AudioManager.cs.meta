@@ -3,7 +3,15 @@ guid: 7fed59fc46f42ed409e11ce71c80adaf
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - enemyHitSound: {fileID: 8300000, guid: 1d8cc3c188ec572489b65bbcf098ddd1, type: 3}
+  - enemyDeathSound: {instanceID: 0}
+  - playerHitSound: {instanceID: 0}
+  - playerDeathSound: {instanceID: 0}
+  - towerPlacedSound: {instanceID: 0}
+  - towerSoldSound: {instanceID: 0}
+  - towerSelectedSound: {instanceID: 0}
+  - towerHoverSound: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

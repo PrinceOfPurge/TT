@@ -11,6 +11,8 @@ public class Dialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     public GameObject dialogueBox;
+    public AudioClip dialogueSoundEffect;
+    public AudioSource audioSource;
 
     private int index;
 
@@ -48,7 +50,18 @@ public class Dialogue : MonoBehaviour
                 Debug.Log("Dialog Pop Up");
             }
         }
-        
+    }
+
+    void PlayDialogueSFX()
+    {
+        if (dialogueSoundEffect != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(dialogueSoundEffect);
+        }
+        else
+        {
+            Debug.LogWarning("dialogue sound effect not assigned");
+        }
     }
 
     void StartDialogue()
@@ -61,6 +74,7 @@ public class Dialogue : MonoBehaviour
     {
         foreach (char c in lines[index].ToCharArray())
         {
+            PlayDialogueSFX();
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
@@ -78,5 +92,7 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+        
+        
     }
 }
