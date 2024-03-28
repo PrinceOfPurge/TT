@@ -959,6 +959,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
+      propertyPath: maxSpawnRate
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
+      propertyPath: minSpawnRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
+      propertyPath: minTimeBetweenSubWaves
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: bossPrefabs.Array.data[0]
       value: 
       objectReference: {fileID: 70616929606703045, guid: c1ccf751a3d31024ab0f083256b1705f,
@@ -17528,6 +17540,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8755651577840621131, guid: b88125c6e2ba3734c90a2e58c42062e7,
         type: 3}
+      propertyPath: enemyHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 087f86f7e8545d544beb864d41455583, type: 3}
+    - target: {fileID: 8755651577840621131, guid: b88125c6e2ba3734c90a2e58c42062e7,
+        type: 3}
+      propertyPath: playerHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: fb2ca356c86228f4795cfe1af0660cf1, type: 3}
+    - target: {fileID: 8755651577840621131, guid: b88125c6e2ba3734c90a2e58c42062e7,
+        type: 3}
+      propertyPath: towerSoldSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c052b85f336b26142944b1c411f1e79f, type: 3}
+    - target: {fileID: 8755651577840621131, guid: b88125c6e2ba3734c90a2e58c42062e7,
+        type: 3}
       propertyPath: enemyDeathSound
       value: 
       objectReference: {fileID: 8300000, guid: cec41cb95ad5f2a43bd4fadc933dc19b, type: 3}
@@ -17543,9 +17570,14 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: cec41cb95ad5f2a43bd4fadc933dc19b, type: 3}
     - target: {fileID: 8755651577840621131, guid: b88125c6e2ba3734c90a2e58c42062e7,
         type: 3}
+      propertyPath: towerPlacedSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 77d79a788054e574fb96643ca31398e9, type: 3}
+    - target: {fileID: 8755651577840621131, guid: b88125c6e2ba3734c90a2e58c42062e7,
+        type: 3}
       propertyPath: towerSelectedSound
       value: 
-      objectReference: {fileID: 8300000, guid: df145141416f0604a987c642ea5f69a2, type: 3}
+      objectReference: {fileID: 8300000, guid: d3b2114b73c35cc45b7e7f57ca25f3fb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
