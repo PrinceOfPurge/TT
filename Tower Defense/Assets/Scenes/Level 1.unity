@@ -194,6 +194,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.05368018
       objectReference: {fileID: 0}
+    - target: {fileID: 2042325398, guid: 978499aed9364f240a3cfe954010ffc6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042325398, guid: 978499aed9364f240a3cfe954010ffc6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.28
+      objectReference: {fileID: 0}
     - target: {fileID: 4231245368046819866, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
       propertyPath: m_Name
@@ -256,9 +264,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
+      propertyPath: m_Size.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d913fb972c2448e429cb6402e8b80032,
+      objectReference: {fileID: 21300000, guid: fb87bfd78fddb5140b75b6b0c5344089,
         type: 3}
     - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
@@ -269,7 +287,7 @@ PrefabInstance:
         type: 3}
       propertyPath: hoverSprite
       value: 
-      objectReference: {fileID: 21300000, guid: aff83923e22557d47a8704f01735c163,
+      objectReference: {fileID: 21300000, guid: 416c57f4f20745849abd0bcdb1797f99,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -776,9 +794,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
+      propertyPath: m_Size.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d913fb972c2448e429cb6402e8b80032,
+      objectReference: {fileID: 21300000, guid: fb87bfd78fddb5140b75b6b0c5344089,
         type: 3}
     - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
@@ -789,7 +817,7 @@ PrefabInstance:
         type: 3}
       propertyPath: hoverSprite
       value: 
-      objectReference: {fileID: 21300000, guid: aff83923e22557d47a8704f01735c163,
+      objectReference: {fileID: 21300000, guid: 416c57f4f20745849abd0bcdb1797f99,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4460,9 +4488,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
+      propertyPath: m_Size.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d913fb972c2448e429cb6402e8b80032,
+      objectReference: {fileID: 21300000, guid: fb87bfd78fddb5140b75b6b0c5344089,
         type: 3}
     - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
@@ -4473,7 +4511,7 @@ PrefabInstance:
         type: 3}
       propertyPath: hoverSprite
       value: 
-      objectReference: {fileID: 21300000, guid: aff83923e22557d47a8704f01735c163,
+      objectReference: {fileID: 21300000, guid: 416c57f4f20745849abd0bcdb1797f99,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10272,9 +10310,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
+      propertyPath: m_Size.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d913fb972c2448e429cb6402e8b80032,
+      objectReference: {fileID: 21300000, guid: fb87bfd78fddb5140b75b6b0c5344089,
         type: 3}
     - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
@@ -10285,7 +10333,7 @@ PrefabInstance:
         type: 3}
       propertyPath: hoverSprite
       value: 
-      objectReference: {fileID: 21300000, guid: aff83923e22557d47a8704f01735c163,
+      objectReference: {fileID: 21300000, guid: 416c57f4f20745849abd0bcdb1797f99,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15587,7 +15635,7 @@ PrefabInstance:
     - target: {fileID: 1820036975, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: cce314f9c38ee61468054834292d65e6,
+      objectReference: {fileID: 21300000, guid: 720344e47b3942f47ac9269c0a609cc8,
         type: 3}
     - target: {fileID: 1953294134, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_fontAsset
