@@ -258,13 +258,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: be3d4d7070e7d5041abceca5d952f03a,
+      objectReference: {fileID: 21300000, guid: d913fb972c2448e429cb6402e8b80032,
         type: 3}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7101777700860744484, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
       propertyPath: hoverSprite
       value: 
-      objectReference: {fileID: 21300000, guid: cf4fe2781482e264eaa9429b89514e52,
+      objectReference: {fileID: 21300000, guid: aff83923e22557d47a8704f01735c163,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -773,13 +778,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: be3d4d7070e7d5041abceca5d952f03a,
+      objectReference: {fileID: 21300000, guid: d913fb972c2448e429cb6402e8b80032,
         type: 3}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7101777700860744484, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
       propertyPath: hoverSprite
       value: 
-      objectReference: {fileID: 21300000, guid: cf4fe2781482e264eaa9429b89514e52,
+      objectReference: {fileID: 21300000, guid: aff83923e22557d47a8704f01735c163,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4452,13 +4462,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: be3d4d7070e7d5041abceca5d952f03a,
+      objectReference: {fileID: 21300000, guid: d913fb972c2448e429cb6402e8b80032,
         type: 3}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7101777700860744484, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
       propertyPath: hoverSprite
       value: 
-      objectReference: {fileID: 21300000, guid: cf4fe2781482e264eaa9429b89514e52,
+      objectReference: {fileID: 21300000, guid: aff83923e22557d47a8704f01735c163,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10259,13 +10274,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: be3d4d7070e7d5041abceca5d952f03a,
+      objectReference: {fileID: 21300000, guid: d913fb972c2448e429cb6402e8b80032,
         type: 3}
+    - target: {fileID: 4231245368046819869, guid: 978499aed9364f240a3cfe954010ffc6,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7101777700860744484, guid: 978499aed9364f240a3cfe954010ffc6,
         type: 3}
       propertyPath: hoverSprite
       value: 
-      objectReference: {fileID: 21300000, guid: cf4fe2781482e264eaa9429b89514e52,
+      objectReference: {fileID: 21300000, guid: aff83923e22557d47a8704f01735c163,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
