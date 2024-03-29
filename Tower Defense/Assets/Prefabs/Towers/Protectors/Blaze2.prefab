@@ -127,7 +127,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.28, y: -0.09, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4127127055965997745}
@@ -175,7 +175,7 @@ SpriteRenderer:
   m_SortingLayerID: -1614282399
   m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cce314f9c38ee61468054834292d65e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 720344e47b3942f47ac9269c0a609cc8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -199,6 +199,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 800
+  towerID: 0
+  ownerPlayerID: 0
+  currentHealth: {fileID: 0}
 --- !u!114 &1145214770682452523
 MonoBehaviour:
   m_ObjectHideFlags: 0

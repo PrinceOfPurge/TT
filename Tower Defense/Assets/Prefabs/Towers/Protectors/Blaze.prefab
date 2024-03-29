@@ -17,7 +17,7 @@ PrefabInstance:
     - target: {fileID: 5880087261289951692, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
       propertyPath: m_Color.a
-      value: 0.48235294
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5880087261289951692, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
@@ -27,12 +27,12 @@ PrefabInstance:
     - target: {fileID: 5880087261289951692, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.3848869
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5880087261289951692, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7152148280341744091, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
@@ -42,12 +42,12 @@ PrefabInstance:
     - target: {fileID: 8186258461924560239, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.02
+      value: -39.50106
       objectReference: {fileID: 0}
     - target: {fileID: 8186258461924560239, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.08
+      value: -1.3742948
       objectReference: {fileID: 0}
     - target: {fileID: 8186258461924560239, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
@@ -92,7 +92,7 @@ PrefabInstance:
     - target: {fileID: 8553705017057228631, guid: 888fd137f3e8cd049b13e101e80547e0,
         type: 3}
       propertyPath: m_Name
-      value: Blaze Variant 1
+      value: Blaze
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

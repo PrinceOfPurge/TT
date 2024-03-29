@@ -181,7 +181,7 @@ namespace Managers {
         }
 
         private void ActivateWaveFinishDialog() {
-            AddToMoney(150); //each wave finish grants player with money
+            AddToMoney(50); //each wave finish grants player with money
             _dialogManager.ActivateWaveFinishLabel();
         }
 
