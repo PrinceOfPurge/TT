@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1500
-  moveSpeed: 0.7
+  moveSpeed: 1
   points: 250
   bloodEffectPrefab: {fileID: 7952677933351207494, guid: 9da2be2905ee8f34f9aad7ea52da5749,
     type: 3}
