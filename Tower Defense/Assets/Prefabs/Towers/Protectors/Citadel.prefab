@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccb9fa087ac86c4b863d72739989ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 700
+  cost: 800
   towerID: 0
   ownerPlayerID: 0
   currentHealth: {fileID: 0}

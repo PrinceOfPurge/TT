@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 110
   moveSpeed: 5
-  points: 20
+  points: 10
   bloodEffectPrefab: {fileID: 7952677933351207494, guid: 9da2be2905ee8f34f9aad7ea52da5749,
     type: 3}
 --- !u!114 &5503388888739457767
@@ -173,7 +173,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07294476, y: -0.35657287}
+  m_Offset: {x: -0.0077417493, y: -0.44081843}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -184,7 +184,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3673112, y: 1.2550693}
+  m_Size: {x: 1.3605763, y: 1.0865779}
   m_EdgeRadius: 0
 --- !u!114 &6818659100088361180
 MonoBehaviour:
@@ -302,12 +302,12 @@ PrefabInstance:
     - target: {fileID: 3751120843065970387, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.02
+      value: 0.0465
       objectReference: {fileID: 0}
     - target: {fileID: 3751120843065970387, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.02
+      value: 0.023
       objectReference: {fileID: 0}
     - target: {fileID: 3751120843065970387, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}
@@ -347,12 +347,12 @@ PrefabInstance:
     - target: {fileID: 3751120843065970387, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 3751120843065970387, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.62
+      value: 2.03
       objectReference: {fileID: 0}
     - target: {fileID: 3751120843065970387, guid: a5d993888a5251a46bb03c9377d09801,
         type: 3}

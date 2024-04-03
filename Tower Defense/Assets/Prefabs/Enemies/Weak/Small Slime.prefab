@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43962e872f77bf242ac687fce68b524d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 100
   moveSpeed: 2
   points: 5
   bloodEffectPrefab: {fileID: 7952677933351207494, guid: 9da2be2905ee8f34f9aad7ea52da5749,
@@ -173,7 +173,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.019645214, y: -0.40872407}
+  m_Offset: {x: -0.1693528, y: -1.0538377}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -184,7 +184,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.80384874, y: 1.1037955}
+  m_Size: {x: 1.5249326, y: 1.3754838}
   m_EdgeRadius: 0
 --- !u!114 &95199374552928778
 MonoBehaviour:

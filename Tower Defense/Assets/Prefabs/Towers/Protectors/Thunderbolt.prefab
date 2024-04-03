@@ -39,6 +39,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3587479683166407424, guid: cd0624d56fe7e9147b7ac358385ddfca,
+        type: 3}
+      propertyPath: cost
+      value: 1500
+      objectReference: {fileID: 0}
     - target: {fileID: 3791169188935174284, guid: cd0624d56fe7e9147b7ac358385ddfca,
         type: 3}
       propertyPath: m_Sprite
@@ -68,12 +73,12 @@ PrefabInstance:
     - target: {fileID: 4746989524979152492, guid: cd0624d56fe7e9147b7ac358385ddfca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.624733
+      value: -27.27111
       objectReference: {fileID: 0}
     - target: {fileID: 4746989524979152492, guid: cd0624d56fe7e9147b7ac358385ddfca,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.303651
+      value: -5.0019617
       objectReference: {fileID: 0}
     - target: {fileID: 4746989524979152492, guid: cd0624d56fe7e9147b7ac358385ddfca,
         type: 3}
@@ -115,6 +120,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7628291448854012023, guid: cd0624d56fe7e9147b7ac358385ddfca,
+        type: 3}
+      propertyPath: fireRate
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628291448854012023, guid: cd0624d56fe7e9147b7ac358385ddfca,
+        type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 6602899991645405010, guid: 02e1d2418e6960a4c9845003ef37008e,
+        type: 3}
     - target: {fileID: 7962944071585606000, guid: cd0624d56fe7e9147b7ac358385ddfca,
         type: 3}
       propertyPath: m_LocalPosition.y

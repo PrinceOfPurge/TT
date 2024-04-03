@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6602899991645405015}
   - component: {fileID: 6602899991645405008}
-  - component: {fileID: 6602899991645405009}
   - component: {fileID: 4146331250623091829}
   - component: {fileID: 8891872892101381339}
   - component: {fileID: 2758840908568363499}
@@ -89,27 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &6602899991645405009
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6602899991645405010}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 902896774ad185641bb3ed0fa8fa154e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!61 &4146331250623091829
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -167,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33dfb926b7e37f445a7c5f9a8d445e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12
+  speed: 20
   hitEffect: {fileID: 0}
 --- !u!114 &2758840908568363499
 MonoBehaviour:
@@ -181,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f11453716277241aea7a34b6d4e20a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 17
+  damage: 5
 --- !u!50 &6119772831255283905
 Rigidbody2D:
   serializedVersion: 4
