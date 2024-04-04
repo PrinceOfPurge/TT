@@ -18,6 +18,13 @@ namespace Scenes {
       public void LoadOptionsScene() => SceneManager.LoadScene("Options");
 
       public void LoadMainMenuScene() => SceneManager.LoadScene("Menu");
+
+        // End application
+      public void Quit()
+        {
+            Debug.Log("Pressed");
+            Application.Quit();
+        }
       
       
    }
