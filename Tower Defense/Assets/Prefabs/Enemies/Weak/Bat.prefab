@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43962e872f77bf242ac687fce68b524d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 60
+  maxHealth: 70
   moveSpeed: 3
   points: 5
   bloodEffectPrefab: {fileID: 7952677933351207494, guid: 9da2be2905ee8f34f9aad7ea52da5749,

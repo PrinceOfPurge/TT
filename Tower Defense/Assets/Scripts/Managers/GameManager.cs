@@ -38,7 +38,7 @@ namespace Managers {
         [Header("Player Stats")] [SerializeField]
         private int maxHealth = 15;
 
-        [SerializeField] private int money;
+        //[SerializeField] private int money;
 
         //stats
         private int _health;
@@ -74,7 +74,7 @@ namespace Managers {
         // Start is called before the first frame update
         private void Start() {
             _gameSpeed = 1f;
-            _money = money;
+            _money = 450;
             _health = maxHealth;
             SetupUI();
             GetComponent<PlayerHealth>().Init();
@@ -204,7 +204,7 @@ namespace Managers {
 
         private void CleanLevel() {
             _health = maxHealth;
-            _money = money;
+            _money = 450;
             _enemyManager.ClearEnemiesList();
             BuildManager.GetInstance().ClearMemory();
             _gameSpeed = 1f;
