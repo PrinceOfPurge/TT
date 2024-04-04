@@ -760,7 +760,7 @@ PrefabInstance:
     - target: {fileID: 8283843890639494741, guid: 0706d6189daded1489a0201296064e39,
         type: 3}
       propertyPath: numOfWaves
-      value: 75
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8283843890639494741, guid: 0706d6189daded1489a0201296064e39,
         type: 3}

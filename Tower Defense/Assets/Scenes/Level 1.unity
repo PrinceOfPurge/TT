@@ -17272,7 +17272,7 @@ PrefabInstance:
     - target: {fileID: 7564758137250723228, guid: 4360d093beda43b4caf4e788a6196846,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7564758137250723228, guid: 4360d093beda43b4caf4e788a6196846,
         type: 3}
@@ -17282,7 +17282,7 @@ PrefabInstance:
     - target: {fileID: 7564758137250723228, guid: 4360d093beda43b4caf4e788a6196846,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadLevelSelectionScene
+      value: LoadGameScene
       objectReference: {fileID: 0}
     - target: {fileID: 7564758137250723228, guid: 4360d093beda43b4caf4e788a6196846,
         type: 3}

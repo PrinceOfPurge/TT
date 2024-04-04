@@ -19,7 +19,7 @@ namespace Managers {
 
         private void Awake() {
             if (FindObjectsOfType<GameManager>().Length > 1) {
-                Destroy(gameObject);
+                //Destroy(gameObject);
             }
             else {
                 _instance = this;
@@ -153,7 +153,6 @@ namespace Managers {
         public void NextLevel() {
             CleanLevel();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            Destroy(gameObject);
         }
 
         public void ExitToMainMenu() {
